@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto DNC</title>
+
+</head>
+<body>
+    <header>
+        <img src="cabecalho.svg" alt=""> 
+    </header>
+    
+    <section>
+     <h1>REVIVA O ÉPICO</h1><br>
+     <h3>DE 01 a 04 DE DEZEMBRO</h3>
+
+    <p>Você consegue sentir? É aquela sensação de finalmente poder falar em voz alta: "estamos em casa". Sim, em dezembro de 2022, teremos a volta da CCXP física. Mas não será qualquer CCXP, vai ser a maior de todos os tempos. Prepare-se para visitar seus universos favoritos, explorar o Artists' Valley, se emocionar nos auditórios e encontrar aventuras épicas a cada passo pelos nossos corredores.</p>
+    </section>
+    <div id="frase">
+    <h2>AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h2>
+    </div>
+    <div id="ingresso">
+    <img src="image-5.svg" onmouseover="highlightCard('#quinta')"  onmouseout= "highlightCard('#quinta')" id="quinta" alt="imagem">
+    <img src="image-3.svg" onmouseover="highlightCard('#sexta')" onmouseout= "highlightCard('#sexta')"   id="sexta" alt="imagem">
+    <img src="image-2.svg" onmouseover="highlightCard('#sabado')" onmouseout= "highlightCard('#sabado')" id="sabado" alt="imagem">
+    <img src="image-1.svg" onmouseover="highlightCard('#domingo')" onmouseout= "highlightCard('#domingo')"  id="domingo" alt="imagem">
+</div>
+
+<div class="timer">
+    <div>
+      <h1 id="dia">00</h1>
+    
+    </div>
+
+    <div>
+      <h1 id="hora">00</h1>
+      
+    </div>
+
+    <div>
+      <h1 id="minuto">00</h1>
+      
+    </div>
+
+    <div>
+      <h1 id="segundo">00</h1>
+    
+    </div>
+  </div>
+
+       
+
+    </div>
+
+   
+        <video  id="video" src="Arlequina.mp4" alt="Video Alerquina" loop autoplay></video>
+    
+    
+     <div> 
+       <p id="cronometro">PARA A MAIOR CCXP DE TODOS OS TEMPOS</p>
+    </div>
+    
+    <button id="letra">GARANTA O SEU!</button>
+
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
